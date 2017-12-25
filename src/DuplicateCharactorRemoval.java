@@ -32,7 +32,7 @@ public class DuplicateCharactorRemoval {
         	 if (len < 2) return;
         	 
         	 int tail = 1,j;
-        	 
+      
         	  for (int i = 1; i < len; ++i) {
         	  	for (j = 0; j < tail; ++j) {
 
@@ -48,7 +48,6 @@ public class DuplicateCharactorRemoval {
         	  str[tail] = 0;
          }
          
-
          
      public static void main(String[] args){
         	 DuplicateCharactorRemoval ch = new DuplicateCharactorRemoval();

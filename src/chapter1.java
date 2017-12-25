@@ -34,6 +34,4 @@ public class chapter1 {
 		System.out.println(sentense.toString());
 		return sentense.toString();
 	}
-	
-	
 }

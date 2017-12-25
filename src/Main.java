@@ -8,8 +8,6 @@ public class Main {
 	   	
 	   	//ch1.merge(word, more);
 	   	ch1.bufferString(word);
-	   	
-	   	
-	   		   
+   
    }
 }
