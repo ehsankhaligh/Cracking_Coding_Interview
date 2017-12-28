@@ -13,20 +13,23 @@ public class Matrix90dRotation{
      int top_row = 0;
      int buttom_row = row_length - 1;
      
-     int[][] result={{}};
+     int[][] result= new int[row_length][column_length];
      int j = 0;//increment row 
-     int k =0;//increment culumn 
+     int k =0;//increment column 
      
      while(right_column>=left_column){
+    	 
+       System.out.println(j+","+k); 
      
        for(int i=top_row;i<=buttom_row;i++){
-          result = new int[j+1][k+1];
+          
           result[j][k] = matrix_rotation[i][right_column];
           System.out.println(result[j][k]);
           j++;    
        }
           System.out.println("---------");
           right_column--;
+          j=0;
           k++;
      }
      

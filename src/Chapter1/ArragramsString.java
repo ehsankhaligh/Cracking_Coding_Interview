@@ -1,3 +1,6 @@
+package Chapter1;
+
+
 /*Write a method to decide if two strings are anagrams or not.
    TestCase Listen->SILENT  
    Assumption: ASCII Char 
