@@ -56,7 +56,6 @@ public class DuplicateCharactorRemoval {
         	 ch.duplicateCharactorRemoval("abaaccd");
         	 //char[] str = {'b','a','a','d'};
         	 //ch.removeDuplicateChar(str);
-        	 
          }
 	}
 	
