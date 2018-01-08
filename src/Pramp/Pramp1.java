@@ -72,7 +72,7 @@ public class Pramp1 {
 			 if(map.get(complemnt)!=null){
 				 
 				 int value_index = Arrays.binarySearch(arr, complemnt);
-				 int[] result_arr1 ={i,value_index};
+				 int[] result_arr1 = {i,value_index};
 				 
 				 //System.out.println("["+i+","+value_index+"]");
 				 return  result_arr1;
