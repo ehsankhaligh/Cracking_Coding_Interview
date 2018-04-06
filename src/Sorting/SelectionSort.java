@@ -6,7 +6,7 @@ public class SelectionSort{
        int temp;
        
        for(int i=0; i<arrLen-1; i++){
-         for(int j=i+1; j<arrLen; j++){
+         for(int j=1; j<arrLen; j++){
          
            
             if(arr[j]<arr[i]){
@@ -14,14 +14,9 @@ public class SelectionSort{
                temp = arr[i];
                arr[i] = arr[j];
                arr[j] = temp;
-               
+             
             }
           }  
-       }
-       
-       for(int k=0; k<arrLen; k++){
-       
-          System.out.println(arr[k]);
        }
        
        return arr;   
@@ -34,4 +29,3 @@ public class SelectionSort{
        selectionSort(arr);
     }    
 }
-       
